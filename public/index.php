@@ -4,6 +4,7 @@ ini_set('display_errors', 1);
 
 require_once __DIR__ . '/../app/controllers/AccueilController.php';
 require_once __DIR__ . '/../app/controllers/CatalogueController.php';
+require_once __DIR__ . '/../app/controllers/ProduitController.php';
 
 $page = $_GET['page'] ?? 'accueil';
 
@@ -14,6 +15,10 @@ switch ($page) {
 
     case 'catalogue':
         (new CatalogueController())->index();
+        break;
+
+    case 'produit':
+        (new ProduitController())->index();
         break;
 
     default:

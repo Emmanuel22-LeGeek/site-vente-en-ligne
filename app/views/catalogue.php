@@ -16,8 +16,7 @@
                     <img src="/site-vente/public/images/produits/<?php echo htmlspecialchars($produit['image']); ?>" alt="<?php echo htmlspecialchars($produit['nom']); ?>">
                     <h3><?php echo htmlspecialchars($produit['nom']); ?></h3>
                     <p class="prix"><?php echo number_format($produit['prix'], 0, ',', ' '); ?> FCFA</p>
-                    <a href="/site-vente/public/index.php?page=produit&id=<?php echo $produit['id']; ?>" class="btn-secondaire">Voir plus</a>
-                </div>
+                    <a href="/site-vente/public/index.php?page=produit&id=<?php echo $produit['id']; ?>" class="btn-secondaire">Voir plus</a>                </div>
             <?php endforeach; ?>
         </div>
     </section>
