@@ -6,6 +6,7 @@ require_once __DIR__ . '/../app/controllers/AccueilController.php';
 require_once __DIR__ . '/../app/controllers/CatalogueController.php';
 require_once __DIR__ . '/../app/controllers/ProduitController.php';
 require_once __DIR__ . '/../app/controllers/CommandeController.php';
+require_once __DIR__ . '/../app/controllers/ContactController.php';
 
 $page = $_GET['page'] ?? 'accueil';
 
@@ -24,6 +25,10 @@ switch ($page) {
 
     case 'commande':
         (new CommandeController())->index();
+        break;
+
+    case 'contact':
+        (new ContactController())->index();
         break;
 
     default:

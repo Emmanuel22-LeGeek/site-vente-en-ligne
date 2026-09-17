@@ -260,3 +260,45 @@ footer {
     font-size: 0.9rem;
     margin-bottom: 1rem;
 }
+
+.contact {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.contact p {
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+.contact-infos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    text-align: left;
+    margin-top: 2rem;
+}
+
+.contact-item {
+    background: #fff;
+    padding: 1.2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.contact-label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+}
+
+.contact-item a {
+    color: #b8860b;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
