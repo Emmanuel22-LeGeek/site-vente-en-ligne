@@ -212,3 +212,51 @@ footer {
         height: 220px;
     }
 }
+.commande {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+.commande h1 {
+    margin-bottom: 1rem;
+}
+
+.produit-selectionne {
+    background-color: #f1ede7;
+    padding: 0.8rem 1rem;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+}
+
+.formulaire .champ {
+    margin-bottom: 1.2rem;
+}
+
+.formulaire label {
+    display: block;
+    margin-bottom: 0.4rem;
+    font-weight: 600;
+}
+
+.formulaire input,
+.formulaire textarea {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.formulaire button {
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.erreur {
+    color: #c0392b;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
